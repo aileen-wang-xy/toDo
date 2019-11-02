@@ -1,5 +1,6 @@
 
 <%=  form_for @task do |f| %> <br>
+<%= render 'error_list' %>
 <%= f.label "Title" %> <br>
 <%= f.text_field :title %> <br>
 <%= f.label "Detail" %> <br>
